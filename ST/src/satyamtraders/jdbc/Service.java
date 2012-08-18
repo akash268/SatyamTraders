@@ -26,7 +26,7 @@ public class Service {
 	
 	//connect to db
 	private void connect(){
-		String url = "jdbc:mysql://localhost:3306/";
+		String url = "jdbc:mysql://192.168.0.101:3306/";
 		String dbName = "satyam_traders";
 		String driver = "com.mysql.jdbc.Driver";
 		String userName = "root"; 
